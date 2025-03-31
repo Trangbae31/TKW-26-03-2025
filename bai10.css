@@ -126,7 +126,9 @@ body {
 }
 
 .in4 h4 {
-    color:#0D92F4
+    color:#0D92F4;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .rate {
