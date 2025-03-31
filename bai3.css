@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Baskerville", Times New Roman, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.h-logo {
+    flex: 2;
+    background-color: aquamarine;
+    padding: 25px;
+    text-align: center;
+}
+
+.h-banner {
+    flex: 7;
+    background-color: aqua;
+    padding: 25px;
+    text-align: center;
+}
+
+.head-link {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 7px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.c-left , .c-right {
+    flex: 1;
+    background-color: bisque;
+    display: flex;
+    align-items: center;  /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    text-align: center;
+}
+
+.c-content {
+    flex: 4;
+    padding: 200px;
+    display: flex;
+    align-items: center;  /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    text-align: center;
+}
+
+.footer {
+    background-color: brown;
+    text-align: center;
+    padding: 20px;
+}

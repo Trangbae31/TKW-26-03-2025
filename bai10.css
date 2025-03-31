@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial Narrow", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+}
+
+.nav-left {
+    color:white;
+    font-size:18px;
+    flex:1;
+    margin: 8px;
+}
+
+.nav-right{
+    color:grey;
+    font-size: 13px;
+    display:flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin: 8px;
+}
+
+.nav-trangchu {
+    color:white;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: black;
+    padding:20px;
+    margin-top: auto;
+}
+
+.container {
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+}
+
+.c-left {
+    align-items: flex-start;
+    flex: 0 0 250px;
+}
+
+.Neta-shop {
+    color:black;
+    font-size:30px;
+    margin-left: 8px;
+}
+
+.category {
+    color:#75b1ee;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 8px;
+    margin-right: 25px;
+}
+
+.c-right {
+    flex:3;
+    display:flex;
+    flex-direction: column;
+}
+
+.food-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-img img {
+    flex: 1; /* Ảnh sẽ tự giãn hết bề ngang */
+    max-height: 250px; /* Giữ chiều cao cố định */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+}
+
+.all-sp {
+    flex:2;
+}
+
+.h1 , .h2 {
+    flex:1;
+    display:flex;
+    flex-direction: row;
+}
+
+.sp {
+    flex: 1;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sp:last-child {
+    margin-right: 0;
+}
+
+.img {
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #666;
+    padding: 30px;
+}
+
+.in4 {
+    padding: 20px;
+    flex-grow: 1; /* Cho phép mở rộng để đẩy .rate xuống */
+}
+
+.in4 h4 {
+    color:#0D92F4
+}
+
+.rate {
+    display: flex;
+    background: #e6e6e6bc;
+    padding: 10px;
+}
+
+.sao-black {
+    font-size: 10px;
+    color: #666;
+    margin: 0 2px;
+}
+
+.sao-grey {
+    font-size: 10px;
+    color: #ccc;
+}

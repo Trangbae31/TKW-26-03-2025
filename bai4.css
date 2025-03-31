@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột bằng nhau, mỗi cột 1 phần */
+    grid-template-rows: 100px auto 50px; /* Hàng 1: 100px, Hàng 2: auto, Hàng 3: 50px */
+}
+
+.grid-item {
+    background-color: #16a085;
+    color: yellow;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}

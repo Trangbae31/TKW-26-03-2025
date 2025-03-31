@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Chia thành 3 cột */
+    grid-template-rows: 100px auto 50px;   /* Chia thành 3 hàng */
+    row-gap: 5px; /* Khoảng cách giữa các hàng */
+}
+
+.grid-item {
+    background-color: #16a085;
+    color: yellow;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+.gi-1 {
+    grid-column: 1 / -1; /* Trải dài từ cột 1 đến hết */
+}
+
+.gi-5 {
+    grid-column: 2 / 4; /* Bắt đầu từ cột 2, kết thúc ở cột 4 (không bao gồm 4) */
+}

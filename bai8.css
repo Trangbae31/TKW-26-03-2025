@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Baskerville", Times New Roman, serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.header {
+    background-color:#ADA991;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar , .aside {
+    flex: 1;
+    background-color: #D98324;
+    display: flex;
+    align-items: center;  /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    text-align: center;
+}
+
+.content {
+    flex: 5;
+    background-color: #FF9A9A;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #ADA991;
+    padding: 20px;
+    text-align: center;
+}

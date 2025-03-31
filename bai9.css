@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Baskerville", Times New Roman, serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.header {
+    background-color:#ADA991;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background-color: #FF9A9A;
+    text-align: center;
+    padding:20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.content {
+    flex: 1;
+    background-color: #D98324;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #ADA991;
+    padding: 20px;
+    text-align: center;
+}
